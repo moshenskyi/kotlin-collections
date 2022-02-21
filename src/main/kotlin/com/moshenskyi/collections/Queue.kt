@@ -33,6 +33,10 @@ class Queue<T> {
         return elements[0]
     }
 
+    fun clear() {
+        elements.clear()
+    }
+
     fun size(): Int = capacity
 
     fun isEmpty(): Boolean = capacity == 0

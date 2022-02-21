@@ -34,6 +34,10 @@ class Stack<T> {
         return elements[capacity - 1]
     }
 
+    fun clear() {
+        elements.clear()
+    }
+
     fun size(): Int = capacity
 
     fun isEmpty(): Boolean = capacity == 0
